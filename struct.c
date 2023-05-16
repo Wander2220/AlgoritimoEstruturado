@@ -17,6 +17,10 @@ int main(){
 
     struct Aluno aluno1;
     struct Professor professor1;
+
+    int vetor[50];
+    struct Aluno listaaluno[4];
+    struct Aluno listaalunomatriz[2][2];
    
     printf("digite o nome do aluno\n");
     fgets(aluno1.nome, 20, stdin);
@@ -36,7 +40,17 @@ int main(){
     printf("digite o dinheiro disponivel\n");
     scanf("%lf", &professor1.dinheiroparamim);
 
-
+    for (int i = 0; i < 4; i++){
+        for (int j = 0; j < 2; j++){
+            printf("digite o nome do aluno\n");
+        fgets(listaalunomatriz[i].nome, 20, stdin);
+        }
+        
+        
+        printf("digite a idade\n");
+        scanf("%d", &listaaluno)
+    }
+    
 
 
 
